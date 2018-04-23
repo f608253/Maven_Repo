@@ -94,10 +94,10 @@
                   <location>target/${project.build.finalName}.${project.packaging}</location>
                 </source>
                 <source>
-                  <location>COPYING</location>
+                  <location>/home/ec2-user</location>
                 </source>
                 <source>
-                  <location>INSTALL</location>
+                  <location>/home/ec2-user/GIT</location>
                 </source>
               </sources>
             </mapping>
