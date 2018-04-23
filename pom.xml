@@ -117,12 +117,12 @@
               <directory>/usr/bin</directory>
               <sources>
                  <softlinkSource>
-                     <destination>pomutil</destination>
+                     <destination>/tmp</destination>
                      <location>/usr/share/pomutils-${project.version}/pomutil</location>
                  </softlinkSource>
                  <softlinkSource>
-                     <destination>xmlfrag</destination>
-                     <location>/usr/share/pomutils-${project.version}/xmlfrag</location>
+                     <destination>/tmp</destination>
+                     <location>/tmp-${project.version}/xmlfrag</location>
                  </softlinkSource>
               </sources>
             </mapping>
