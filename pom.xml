@@ -106,10 +106,10 @@
               <filemode>755</filemode>
               <sources>
                 <source>
-                  <location>pomutil</location>
+                  <location>/tmp</location>
                 </source>
                 <source>
-                  <location>xmlfrag</location>
+                  <location>/tmp</location>
                 </source>
               </sources>
             </mapping>
@@ -118,11 +118,11 @@
               <sources>
                  <softlinkSource>
                      <destination>/tmp</destination>
-                     <location>/usr/share/pomutils-${project.version}/pomutil</location>
+                     <location>/tmp-${project.version}/tmp</location>
                  </softlinkSource>
                  <softlinkSource>
                      <destination>/tmp</destination>
-                     <location>/tmp-${project.version}/xmlfrag</location>
+                     <location>/tmp-${project.version}/tmp</location>
                  </softlinkSource>
               </sources>
             </mapping>
